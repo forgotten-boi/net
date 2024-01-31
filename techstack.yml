@@ -1,0 +1,842 @@
+repo_name: forgotten-boi/net
+report_id: 98ed87b32a4e017971546146e05ac2bf
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T12:06:16+00:00'
+requested_by: pofider
+provider: github
+branch: master
+detected_tools_count: 55
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: '4.5'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/ContosoUniversity.csproj
+  detection_source: examples/ContosoUniversity/ContosoUniversity/ContosoUniversity.csproj
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/forgotten-boi/net
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/forgotten-boi/net
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/jsreport/jsreport.Client.Test/packages.config
+  detection_source: jsreport/jsreport.Client.Test/packages.config
+  last_updated_by: pofider
+  last_updated_on: 2014-02-20 14:31:14.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Knockout
+  description: Create rich, responsive UIs with JavaScript
+  website_url: http://knockoutjs.com/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1997/logo_400x400.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Entity Framework
+  description: An object-relational mapper that enables .NET developers to work with
+    relational data
+  website_url: https://docs.microsoft.com/en-us/aspnet/entity-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-20 12:06:28.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/forgotten-boi/net
+  detection_source: Repo Metadata
+- name: NUnit
+  description: An open-source unit testing framework
+  website_url: http://www.nunit.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2371/jZ6MYx5Y_400x400.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/jsreport/jsreport.Client.Test/packages.config
+  detection_source: jsreport/jsreport.Client.Test/packages.config
+  last_updated_by: pofider
+  last_updated_on: 2014-02-20 14:31:14.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/jsreport/jsreport.Client.Test/packages.config
+  detection_source: jsreport/jsreport.Client.Test/packages.config
+  last_updated_by: pofider
+  last_updated_on: 2014-02-20 14:31:14.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity.sln
+  detection_source: examples/ContosoUniversity/ContosoUniversity.sln
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Modernizr
+  description: Respond to your user’s browser features
+  website_url: https://modernizr.com/
+  version: 2.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2440/9TeXWBzR_400x400.jpg
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/forgotten-boi/net
+  detection_source: Repo Metadata
+- name: Antlr
+  description: ANother Tool for Language Recognition
+  package_url: https://www.nuget.org/Antlr
+  version: 3.4.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13151/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: DotNetOpenAuth.AspNet
+  description: Enables web site visitors to log into an ASP.NET web application via
+    popular identity providers
+  package_url: https://www.nuget.org/DotNetOpenAuth.AspNet
+  version: 4.3.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13933/default_8dca38a2ab03b0f0fe4abb9653f518b12d7c36b6.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-16 20:01:45.000000000 Z
+- name: DotNetOpenAuth.Core
+  description: This package contains shared code for other NuGet packages
+  package_url: https://www.nuget.org/DotNetOpenAuth.Core
+  version: 4.3.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14514/default_26203d730613eafa87f8442ac8c7d2681fb68c1e.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-16 20:01:45.000000000 Z
+- name: DotNetOpenAuth.OAuth.Consumer
+  description: Improve usability
+  package_url: https://www.nuget.org/DotNetOpenAuth.OAuth.Consumer
+  version: 4.3.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15004/default_2bc9b8012cc0314fa3c462782c3abefe3467a481.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-16 20:01:45.000000000 Z
+- name: DotNetZip
+  description: A fork of the DotNetZip project without signing with a solution that
+    compiles cleanly
+  package_url: https://www.nuget.org/DotNetZip
+  version: 1.9.3
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13042/default_1075538f3811f68c42abfdf5ebcf152058e4076d.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+  vulnerabilities:
+  - name: High severity vulnerability that affects DotNetZip
+    cve_id: CVE-2018-1002205
+    cve_url: https://github.com/advisories/GHSA-7378-6268-4278
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.11.0
+- name: Microsoft.AspNet.Mvc
+  description: ASP.NET MVC is a web framework that gives you a powerful, patterns-based
+    way to build dynamic websites and Web APIs
+  package_url: https://www.nuget.org/Microsoft.AspNet.Mvc
+  version: 5.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12850/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Microsoft.AspNet.Mvc.FixedDisplayModes
+  description: The previous version of this package contained a workaround for a bug
+    affecting mobile view caching in ASP.NET MVC 4
+  package_url: https://www.nuget.org/Microsoft.AspNet.Mvc.FixedDisplayModes
+  version: 5.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13591/default_2fed3dd41a57ad03758b88d7d49dbbc498986493.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: Microsoft.AspNet.Providers.Core
+  description: ASP.NET Universal Providers add provider support in ASP.NET 4 for all
+    editions of SQL Server 2005 and later and to SQL Azure
+  package_url: https://www.nuget.org/Microsoft.AspNet.Providers.Core
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14341/default_afb824345d39171426ecba1761288d02cb44b19c.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: Microsoft.AspNet.Providers.LocalDb
+  description: ASP.NET Universal Providers add provider support in ASP.NET 4 for all
+    editions of SQL Server 2005 and later and to SQL Azure
+  package_url: https://www.nuget.org/Microsoft.AspNet.Providers.LocalDb
+  version: 2.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14681/default_48864d946ebda6ea32754eb8405d1d1897e6a8f6.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: Microsoft.AspNet.Razor
+  description: Razor is a markup syntax for adding server-side logic to web pages
+  package_url: https://www.nuget.org/Microsoft.AspNet.Razor
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12930/default_f8bf1110f8f0beaf5fae35865de7f77ccd1139f0.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Microsoft.AspNet.Web.Optimization
+  description: ASP.NET Optimization introduces a way to bundle and optimize CSS and
+    JavaScript files
+  package_url: https://www.nuget.org/Microsoft.AspNet.Web.Optimization
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12966/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Microsoft.AspNet.WebApi
+  description: This package contains everything you need to host ASP.NET Web API on
+    IIS
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi
+  version: 5.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12923/default_039376cf26bae25623c106aea6185b89980a1e50.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: Microsoft.AspNet.WebApi.Client
+  description: This package adds support for formatting and content negotiation to
+    System.Net.Http
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Client
+  version: 5.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12870/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: Microsoft.AspNet.WebApi.Core
+  description: This package contains the core runtime assemblies for ASP.NET Web API
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Core
+  version: 5.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12879/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: Microsoft.AspNet.WebApi.OData
+  description: This package contains everything you need to create OData endpoints
+    using ASP.NET Web API and to support OData query syntax for your web APIs
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.OData
+  version: 5.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13341/default_24f30a6aa060dc11b9cd4dd1d52905db9245e978.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-20 12:06:28.000000000 Z
+- name: Microsoft.AspNet.WebApi.WebHost
+  description: This package contains everything you need to host ASP.NET Web API on
+    IIS
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.WebHost
+  version: 5.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12978/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: Microsoft.AspNet.WebPages
+  description: This package contains core runtime assemblies shared between ASP.NET
+    MVC and ASP.NET Web Pages
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebPages
+  version: 3.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12947/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Microsoft.AspNet.WebPages.Data
+  description: This package contains the runtime assemblies for ASP.NET Web Pages
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebPages.Data
+  version: 3.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13913/default_d0f56a4fd164e7339982fb0fcb3c8259b4f6838c.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-20 12:06:28.000000000 Z
+- name: Microsoft.AspNet.WebPages.OAuth
+  description: This package contains the runtime assemblies for ASP.NET Web Pages
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebPages.OAuth
+  version: 3.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13861/default_9392b6bd21074179bfea6d3bfa28b6447ac48306.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-16 20:01:45.000000000 Z
+- name: Microsoft.AspNet.WebPages.WebData
+  description: This package contains the runtime assemblies for ASP.NET Web Pages
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebPages.WebData
+  version: 3.2.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13779/default_300517a0879bc10cd5f0e9cabc8af8536f57ba23.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-20 12:06:28.000000000 Z
+- name: Microsoft.Bcl
+  description: 'This packages enables projects targeting down-level platforms to use
+    some of the types added in later versions including: - CallerMemberNameAttribute
+    - CallerLineNumberAttribute...'
+  package_url: https://www.nuget.org/Microsoft.Bcl
+  version: 1.1.9
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12902/default_d56a77cbb06d3dae6daef9669108e3e01d2494af.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Microsoft.Bcl.Async
+  description: This package enables Visual Studio 2012 projects to use the new 'async'
+    and 'await' keywords
+  package_url: https://www.nuget.org/Microsoft.Bcl.Async
+  version: 1.0.168
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12917/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Microsoft.Bcl.Build
+  description: This package provides build infrastructure components so that projects
+    referencing specific Microsoft packages can successfully build
+  package_url: https://www.nuget.org/Microsoft.Bcl.Build
+  version: 1.0.14
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12905/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Microsoft.Data.Edm
+  description: Classes to represent, construct, parse, serialize and validate entity
+    data models
+  package_url: https://www.nuget.org/Microsoft.Data.Edm
+  version: 5.6.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13102/default_ec099cd91036217b675f6c04acb0ff8c567a41ed.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-20 12:06:28.000000000 Z
+- name: Microsoft.Data.OData
+  description: This version of the library supports earlier versions of the Microsoft
+    OData
+  package_url: https://www.nuget.org/Microsoft.Data.OData
+  version: 5.6.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13021/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-20 12:06:28.000000000 Z
+  vulnerabilities:
+  - name: Denial of service in ASP.NET Core
+    cve_id: CVE-2018-8269
+    cve_url: https://github.com/advisories/GHSA-mv2r-q4g5-j8q5
+    detected_date: Aug 22
+    severity: high
+    first_patched: 5.8.4
+- name: Microsoft.Net.Http
+  description: This package includes HttpClient for sending requests over HTTP, as
+    well as HttpRequestMessage and HttpResponseMessage for processing HTTP messages
+  package_url: https://www.nuget.org/Microsoft.Net.Http
+  version: 2.2.22
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12875/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Microsoft.OData.Core
+  description: Classes to serialize, deserialize and validate OData JSON payloads
+  package_url: https://www.nuget.org/Microsoft.OData.Core
+  version: 6.10.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13296/default_1e1f93823dcbf467a805adfd578c74f8f54c6a4e.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/jsreport/jsreport.Client.Test/packages.config
+  detection_source: jsreport/jsreport.Client.Test/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2015-03-30 17:05:34.000000000 Z
+- name: Microsoft.OData.Edm
+  description: Classes to represent, construct, parse, serialize and validate entity
+    data models
+  package_url: https://www.nuget.org/Microsoft.OData.Edm
+  version: 6.10.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13371/default_a8c5a9d917d12544e0591a4182335d690601b375.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/jsreport/jsreport.Client.Test/packages.config
+  detection_source: jsreport/jsreport.Client.Test/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2015-03-30 17:05:34.000000000 Z
+- name: Microsoft.Spatial
+  description: Contains classes and methods that facilitate geography and geometry
+    spatial operations
+  package_url: https://www.nuget.org/Microsoft.Spatial
+  version: 6.10.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13328/default_4d1c8e39751da3e5e8bf7305f3f45ac90df4be6f.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/jsreport/jsreport.Client.Test/packages.config
+  detection_source: jsreport/jsreport.Client.Test/packages.config
+  last_updated_by: pofider
+  last_updated_on: 2015-03-26 09:50:19.000000000 Z
+- name: Microsoft.Web.Infrastructure
+  description: This package contains the Microsoft.Web.Infrastructure assembly that
+    lets you dynamically register HTTP modules at run time
+  package_url: https://www.nuget.org/Microsoft.Web.Infrastructure
+  version: 1.0.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12927/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Microsoft.jQuery.Unobtrusive.Ajax
+  description: JQuery plugin that unobtrusively sets up jQuery Ajax
+  package_url: https://www.nuget.org/Microsoft.jQuery.Unobtrusive.Ajax
+  version: 3.2.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13618/default_cf7c9bcc8caff1ab5c9fba9a4cc235b100a0a0b2.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: Microsoft.jQuery.Unobtrusive.Validation
+  description: JQuery plugin that unobtrusively sets up jQuery.Validation
+  package_url: https://www.nuget.org/Microsoft.jQuery.Unobtrusive.Validation
+  version: 3.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13143/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
+    cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+    detected_date: Jun 23
+    severity: high
+    first_patched: 13.0.1
+- name: PagedList
+  description: PagedList makes it easier for .Net developers to write paging code
+  package_url: https://www.nuget.org/PagedList
+  version: 1.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13888/default_1dc9a9444fe68b18bef2b0e836067caced79799a.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: PagedList.Mvc
+  description: Asp.Net MVC HtmlHelper method for generating paging control for use
+    with PagedList library
+  package_url: https://www.nuget.org/PagedList.Mvc
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14220/default_ffadef563895e8f528ab369639ee4a7ab8ef8d52.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: Respond
+  description: The goal of this script is to provide a fast and lightweight
+  package_url: https://www.nuget.org/Respond
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13229/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: System.Spatial
+  description: Contains classes and methods that facilitate geography and geometry
+    spatial operations
+  package_url: https://www.nuget.org/System.Spatial
+  version: 5.6.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13062/default_0af6f5844ebd9062a9a4895d909753dc8447f2f3.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/Mvc/Mvc/packages.config
+  detection_source: examples/Mvc/Mvc/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-16 20:01:45.000000000 Z
+- name: WebGrease
+  description: Web Grease is a suite of tools for optimizing javascript
+  package_url: https://www.nuget.org/WebGrease
+  version: 1.5.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13115/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/ContosoUniversity/ContosoUniversity/packages.config
+  detection_source: examples/ContosoUniversity/ContosoUniversity/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-08-21 10:36:50.000000000 Z
+- name: jQuery.UI.Combined
+  description: JQuery UI is an open source library of interface components — interactions,
+    full-featured widgets, and animation effects — based on the stellar jQuery javascript
+    library
+  package_url: https://www.nuget.org/jQuery.UI.Combined
+  version: 1.11.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13096/default_9a42ff760d96a634e61dad6d7a7d76e2d1506229.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+  vulnerabilities:
+  - name: High severity vulnerability that affects jquery-ui
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-g8q2-24jh-5hpc
+    detected_date: Sep 27
+    severity: high
+    first_patched: 1.12.0
+  - name: jQuery-UI vulnerable to Cross-site Scripting in dialog closeText
+    cve_id: CVE-2016-7103
+    cve_url: https://github.com/advisories/GHSA-hpcf-8vf9-q4gj
+    detected_date: Sep 27
+    severity: moderate
+    first_patched: 1.12.0
+  - name: jQuery UI vulnerable to XSS when refreshing a checkboxradio with an HTML-like
+      initial text label
+    cve_id: CVE-2022-31160
+    cve_url: https://github.com/advisories/GHSA-h6gj-6jjq-h8g9
+    detected_date: Sep 27
+    severity: moderate
+    first_patched: 1.13.2
+  - name: XSS in the `altField` option of the Datepicker widget in jquery-ui
+    cve_id: CVE-2021-41182
+    cve_url: https://github.com/advisories/GHSA-9gj3-hwp5-pmwc
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 1.13.0
+  - name: XSS in `*Text` options of the Datepicker widget in jquery-ui
+    cve_id: CVE-2021-41183
+    cve_url: https://github.com/advisories/GHSA-j7qv-pgf6-hvh4
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 1.13.0
+  - name: XSS in the `of` option of the `.position()` util in jquery-ui
+    cve_id: CVE-2021-41184
+    cve_url: https://github.com/advisories/GHSA-gpqq-952q-5327
+    detected_date: Sep 26
+    severity: moderate
+    first_patched: 1.13.0
+- name: jQuery.Validation
+  description: This jQuery plugin makes simple clientside form validation trivial,
+    while offering lots of option for customization
+  package_url: https://www.nuget.org/jQuery.Validation
+  version: 1.13.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13119/default_f0c74e534077001eb65a152707758ce46a2dc970.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service in jquery-validation
+    cve_id: CVE-2021-21252
+    cve_url: https://github.com/advisories/GHSA-jxwx-85vp-gvwm
+    detected_date: Mar 3
+    severity: high
+    first_patched: 1.19.3
+  - name: Regular expression denial of service in jquery-validation
+    cve_id: CVE-2021-43306
+    cve_url: https://github.com/advisories/GHSA-j9m2-h2pv-wvph
+    detected_date: May 31
+    severity: low
+    first_patched: 1.19.4
+- name: knockoutjs
+  description: A JavaScript MVVM library to help you create rich
+  package_url: https://www.nuget.org/knockoutjs
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13135/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/forgotten-boi/net/blob/master/examples/EndUserCustomizations/packages.config
+  detection_source: examples/EndUserCustomizations/packages.config
+  last_updated_by: honza.pofider@seznam.cz
+  last_updated_on: 2014-12-18 12:19:48.000000000 Z
